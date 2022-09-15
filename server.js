@@ -45,7 +45,7 @@ MongoClient.connect(process.env.mongodb, { useUnifiedTopology: true })
         .catch(error => console.error(error))
     })
 
-    // UPDATE yoda quote // this might not be running when I'm trying to update my yoda quote
+    // UPDATE yoda quote
     app.put('/quotes', (req, res) => {
       quotesCollection.findOneAndUpdate(
         { name: 'Yoda' },
@@ -56,7 +56,7 @@ MongoClient.connect(process.env.mongodb, { useUnifiedTopology: true })
           }
         },
         {
-          upsert: true
+          upsert: false
         }
       )
       .then(result => {
