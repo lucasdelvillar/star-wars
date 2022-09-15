@@ -3,6 +3,8 @@ const bodyParser = require('body-parser')
 const app = express();
 const MongoClient = require('mongodb').MongoClient
 
+
+
 const connectionString = 'mongodb+srv://yoda:yoda14@cluster0.k2scqto.mongodb.net/?retryWrites=true&w=majority'
 
 MongoClient.connect(connectionString, { useUnifiedTopology: true })
@@ -76,7 +78,7 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
         .catch(error => console.error(error))
     })
 
-    app.listen(process.env.PORT || 3000, function() {
+    app.listen(process.env.MONGODB_URI || 3000, function() {
       console.log('listening on 3000')
     })
   })
