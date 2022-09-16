@@ -1,5 +1,5 @@
 # star-wars
-Full-stack app that allows CRUD operation to log a list of star wars character quotes. 
+Full-stack app that allows CRUD operation to log star wars character quotes. 
 
 **Link to project:** https://star-wars-ld.herokuapp.com
 
