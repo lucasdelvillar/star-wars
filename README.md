@@ -3,7 +3,7 @@ Full-stack app that allows CRUD operation on the quotes list of star wars charac
 
 **Link to project:** https://star-wars-ld.herokuapp.com
 
-![alt tag](https://i.imgur.com/itKqjw3.png)
+![alt tag](#)
 
 ## How It's Made:
 
