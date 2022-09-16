@@ -1,5 +1,5 @@
 # star-wars
-Full-stack app that allows CRUD operation on the quotes list of star wars characters. 
+Full-stack app that allows CRUD operation to log a list of star wars character quotes. 
 
 **Link to project:** https://star-wars-ld.herokuapp.com
 
@@ -7,13 +7,12 @@ Full-stack app that allows CRUD operation on the quotes list of star wars charac
 
 ## How It's Made:
 
-**Tech used:** MongoDB, Node.js, Express, JavaScript, HTML, CSS
+**Tech used:** MongoDB, Node.js, Express, JavaScript, HTML, CSS, EJS
 
-TODO
-## Optimizations:
+Express used to create the server allowing for CRUD operations between client and database. EJS templating language used to update DOM when CRUD operations execute. Client-side JS have event handlers listening for update and delete operations. 
 
-TODO
+ <!-- ## Optimizations: -->
 
 ## Lessons Learned:
 
-TODO
+How to create a server with Express, implementing update and delete operations on a database, updating DOM with templating langague, how to deploy web app on Heroku while connected to MongoDB.
