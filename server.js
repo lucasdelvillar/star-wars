@@ -28,12 +28,6 @@ MongoClient.connect(process.env.mongodb, { useUnifiedTopology: true })
           res.render('index.ejs', { quotes: results })
         })
         .catch(error => console.error(error))
-
-      // needed to serve the page
-      // res.sendFile(__dirname + '/index.html')
-
-      // Note: __dirname is the current directory you're in. Try logging it and see what you get!
-      // Mine was '/Users/zellwk/Projects/demo-repos/crud-express-mongo' for this app.
     })
 
     // CREATE quotes
