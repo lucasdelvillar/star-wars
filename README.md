@@ -7,7 +7,7 @@ Full-stack app that allows CRUD operation on the quotes list of star wars charac
 
 ## How It's Made:
 
-**Tech used:** MongoDB, Node.js, Express, JavaScript, HTML CSS
+**Tech used:** MongoDB, Node.js, Express, JavaScript, HTML, CSS
 
 TODO
 ## Optimizations:
